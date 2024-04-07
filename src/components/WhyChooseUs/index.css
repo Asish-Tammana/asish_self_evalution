@@ -1,0 +1,41 @@
+.wcu-container{
+    background-color: #fefeff;
+    text-align: center;
+    padding-bottom: 20px;
+
+
+}
+
+hr {
+    background-color: #35117a;
+    width: 15%;
+    padding: 2px;
+    border-radius: 10px;
+
+}
+
+.cards-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 60%;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.wcu-card{
+    background-color: #f5f8fd;
+    margin: 5px;
+    border-radius: 20px;
+    padding: 5px;
+    height: 310px;
+    width: 30%;
+}
+
+@media (max-width: 767px){
+    .wcu-card{
+        width: 90%;
+        height: fit-content;
+    }
+}

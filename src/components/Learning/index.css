@@ -1,0 +1,15 @@
+.learning-cards{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.card-majors{
+    width: 100%;
+    background-color: #35117a;
+    color: #ffffff;
+    padding: 3px;
+
+}
